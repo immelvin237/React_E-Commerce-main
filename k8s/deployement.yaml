@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ecommerce
-        image: immelvin237/ecommerce:latest
+        image: polamelvin/ecommerce:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
